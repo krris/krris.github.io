@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on TODO: Remove this later</title>
+    <link>http://todoremove.com/post/index.xml</link>
+    <description>Recent content in Posts on TODO: Remove this later</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2017 TODO Remove</copyright>
+    <lastBuildDate>Wed, 01 Mar 2017 08:10:00 +0100</lastBuildDate>
+    <atom:link href="http://todoremove.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Get Noticed! and an app idea</title>
+      <link>http://todoremove.com/post/2017-03/get-noticed-and-an-app-idea/</link>
+      <pubDate>Wed, 01 Mar 2017 08:10:00 +0100</pubDate>
+      
+      <guid>http://todoremove.com/post/2017-03/get-noticed-and-an-app-idea/</guid>
+      <description>
+
+&lt;p&gt;Recently I decided to take part in &lt;a href=&#34;http://dajsiepoznac.pl&#34;&gt;Get Noticed!&lt;/a&gt; (in Polish - &lt;em&gt;Daj Się Poznać&lt;/em&gt;) competition . What is it? It’s a contest which the main idea is to start blogging and develop your open source project. Sounds cool, isn’t it? I had so many ideas! Frankly speaking, I had a hard time deciding what to work on. At the end, I&amp;nbsp;chose to develop a metronome app for iOS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/dsp2017.png&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;idea&#34;&gt;Idea&lt;/h1&gt;
+
+&lt;p&gt;If you are not a musician, you need a few words of explanation. A&amp;nbsp;&lt;a href=&#34;https://en.wikipedia.org/wiki/Metronome&#34;&gt;metronome&lt;/a&gt; is a device that produces an audible beat - a click or other sound - at regular intervals that the user can set in beats per minute (BPM). I want to write this kind of app because it will be super useful for me. I play the guitar and practising with the metronome is essential. But wait, for sure there are tonnes of metronomes on the App Store… Why do I&amp;nbsp;want to write another one? The answer is easy - to learn. Currently, at my work, I code in Objective-C. I&amp;nbsp;would like to learn more about Swift&amp;nbsp;3 and what’s new since Swift&amp;nbsp;2. Moreover writing a new application is a&amp;nbsp;great opportunity to improve my design skills. Also at the end, it would be amazing to have an app in the App Store which you use on daily basis. :)&lt;/p&gt;
+
+&lt;h1 id=&#34;design&#34;&gt;Design&lt;/h1&gt;
+
+&lt;p&gt;When I work on a mobile application, I&amp;nbsp;like to start with a design. The main advantage for me is that it gives me a good overall picture of the application and reduces the possibility of future redesigns. What’s more, it’s a&amp;nbsp;great moment to experiment with different ideas for features. I&amp;nbsp;used the same workflow during the development of my first game &lt;a href=&#34;https://itunes.apple.com/app/id1146756023&#34;&gt;Planetoid&lt;/a&gt; and it worked pretty well.&lt;/p&gt;
+
+&lt;p&gt;The idea for a metronome application is to keep it simple and minimal. The MVP should:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;display beats per minute,&lt;/li&gt;
+&lt;li&gt;adjust BMP if a user swipes vertically,&lt;/li&gt;
+&lt;li&gt;play sound for each note,&lt;/li&gt;
+&lt;li&gt;play/stop the beat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/prototype.png&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-s-next&#34;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;I’ve got some ideas for the final version of the app. For example, it could allow to set the metre or adjust the tempo by tapping on the screen. But now it’s not a time to worry about it. Let’s finish first the MVP.&lt;/p&gt;
+
+&lt;p&gt;OK, it’s high time to start coding!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>http://todoremove.com/post/hello-world/</link>
+      <pubDate>Sun, 12 Feb 2017 11:30:01 +0100</pubDate>
+      
+      <guid>http://todoremove.com/post/hello-world/</guid>
+      <description>&lt;p&gt;Knock, knock. Are you there?&lt;/p&gt;
+
+&lt;p&gt;My name is Krzysztof. I&amp;rsquo;ve been thinking about having my own blog since ages. And you know what?  I’ve just decided to start it! What’s more, I’m going to take part in &lt;a href=&#34;http://dajsiepoznac.pl&#34;&gt;Get Noticed!&lt;/a&gt; competition!&lt;/p&gt;
+
+&lt;p&gt;What am I going to write about? For sure about mobile development and my new open source app for iOS. Maybe also about something else? We’ll see.&lt;/p&gt;
+
+&lt;p&gt;Why I’ve decided to start a blog? There are many reasons why, but one of the most important is to share knowledge about mobile software development. Moreover, I hope to improve my writing skills and brush up my English.&lt;/p&gt;
+
+&lt;p&gt;Keep your fingers crossed and see you soon!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on TODO: Remove this later</title>
+    <link>http://todoremove.com/about/index.xml</link>
+    <description>Recent content in Abouts on TODO: Remove this later</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2017 TODO Remove</copyright>
+    <lastBuildDate>Sun, 12 Feb 2017 11:00:01 +0100</lastBuildDate>
+    <atom:link href="http://todoremove.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://todoremove.com/about/</link>
+      <pubDate>Sun, 12 Feb 2017 11:00:01 +0100</pubDate>
+      
+      <guid>http://todoremove.com/about/</guid>
+      <description>
+
+&lt;h3 id=&#34;about-me&#34;&gt;About me&lt;/h3&gt;
+
+&lt;p&gt;Hi! I&amp;rsquo;m Krzysztof and I create software for iOS.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/KrrisPl&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:todoremove@gmail.com&#34;&gt;Mail&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;apps&#34;&gt;Apps&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/planetoid-minimalist-strategy/id1146756023?mt=8&#34;&gt;Planetoid&lt;/a&gt; - a minimal, graph-based strategy game with ambient music.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/IJVSyolxm7A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/outlife-social-network-for/id1051664109?mt=8&#34;&gt;OUTlife&lt;/a&gt; - Social network for LGBTQ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;open-source&#34;&gt;Open source&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spotify/HubFramework&#34;&gt;HubFramework&lt;/a&gt; - Component-driven UI framework for iOS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/macoscope/GrandCentralBoard&#34;&gt;Grand Central Board&lt;/a&gt; - Hang a TV in your open space or team room to show everyone what&amp;rsquo;s up and get them up to speed&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://todoremove.com/post/2017-03/get-noticed-and-an-app-idea/</loc>
+    <lastmod>2017-03-01T08:10:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/post/hello-world/</loc>
+    <lastmod>2017-02-12T11:30:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/about/</loc>
+    <lastmod>2017-02-12T11:00:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/about/</loc>
+    <lastmod>2017-02-12T11:00:01+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/tags/dsp2017/</loc>
+    <lastmod>2017-03-01T08:10:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/post/</loc>
+    <lastmod>2017-03-01T08:10:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/</loc>
+    <lastmod>2017-03-01T08:10:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://todoremove.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
