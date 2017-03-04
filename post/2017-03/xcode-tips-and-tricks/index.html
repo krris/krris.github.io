@@ -1,0 +1,300 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="TODO - remove this later">
+		<meta name="description" content="Blog about mobile development">
+		<meta name="generator" content="Hugo 0.19" />
+		<title>Xcode - tips and tricks &middot; TODO: Remove this later</title>
+		<link rel="shortcut icon" href="http://todoremove.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://todoremove.com/css/style.css">
+		<link rel="stylesheet" href="http://todoremove.com/css/highlight.css">
+		
+		<link rel="stylesheet" href="http://todoremove.com/css/styles.css">
+		
+
+		
+		<link rel="stylesheet" href="http://todoremove.com/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="http://todoremove.com/index.xml" rel="alternate" type="application/rss+xml" title="TODO: Remove this later" />
+		
+
+		<meta property="og:title" content="Xcode - tips and tricks" />
+<meta property="og:description" content="My favourite Xcode tips and tricks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://todoremove.com/post/2017-03/xcode-tips-and-tricks/" />
+
+
+
+<meta property="article:published_time" content="2017-03-04T18:02:30&#43;01:00"/>
+<meta property="article:modified_time" content="2017-03-04T18:02:30&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	    
+	    
+<meta itemprop="name" content="Xcode - tips and tricks">
+<meta itemprop="description" content="My favourite Xcode tips and tricks.">
+
+
+<meta itemprop="dateModified" content="2017-03-04T18:02:30&#43;01:00" />
+<meta itemprop="wordCount" content="690">
+
+
+
+<meta itemprop="keywords" content="dsp2017," />
+
+	    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Xcode - tips and tricks"/>
+<meta name="twitter:title" content="Xcode - tips and tricks"/>
+<meta name="twitter:description" content="My favourite Xcode tips and tricks."/>
+<meta name="twitter:site" content="@https://www.twitter.com/KrrisPl"/>
+
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://todoremove.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+		<a href='http://todoremove.com/about'>About</a>
+	
+
+	
+	<a class="cta" href="http://todoremove.com/index.xml">Subscribe</a>
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Xcode - tips and tricks</h1>
+                    <h2 class="headline">
+                    March 4, 2017 
+                    <br>
+                    
+                    
+                        
+                            <a href="http://todoremove.com/tags/dsp2017">dsp2017</a>
+                        
+                    
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<p>Xcode is the most famous IDE for native iOS development. As developers, we use it on daily basis. Some of us love it, others hate it. Nevertheless, it’s worth spending some time to brush up our Xcode skills and make us more productive. In this post, I&nbsp;would like to share some tips and tricks, which helped me a&nbsp;lot.</p>
+
+<h1 id="shortcuts">Shortcuts</h1>
+
+<p>Every IDE has a&nbsp;lot of shortcuts. Here are some, which I&nbsp;find most useful during my everyday work. Some of them might be obvious for you but I&nbsp;would still recommend reading the whole article. Maybe you will learn something new which will boost your productivity.</p>
+
+<h4 id="open-quickly-o">Open quickly ⌘⇧O</h4>
+
+<p>If I&nbsp;had to choose the most popular shortcut, it would be <em>Open quickly</em>. You can search for anything in your project or even in all Apple&rsquo;s public headers. It&rsquo;s worth remembering that you don&rsquo;t need to write consecutive letters. It&rsquo;s enough to give them in a&nbsp;correct order.</p>
+
+<p><img class="center" src="/post/2017-03/img/open-quickly.png"></p>
+
+<h4 id="reveal-in-project-navigator-j">Reveal in Project Navigator ⌘⇧J</h4>
+
+<p>Imagine you work on a&nbsp;big project. You found a&nbsp;file with <em>Open quickly</em> and now you want to add a&nbsp;new file in the same Group. But how to locate it in the <em>Project Navigator</em>? Just press ⌘⇧J and it&rsquo;s done!</p>
+
+<h4 id="searchable-menus-6">Searchable Menus ⌃6</h4>
+
+<p>Now you try to find a&nbsp;particular method in a&nbsp;<em>Massive</em> View Controller. You can search for a&nbsp;text with ⌘F but it&rsquo;s easier and more practical to press ⌃6 to show a&nbsp;view with listed properties and methods. The great thing is that you can immediately start typing and filter the results.</p>
+
+<p><img class="center" src="/post/2017-03/img/searchable-menu.png"></p>
+
+<h4 id="documentation-generation">Documentation Generation ⌥⌘/</h4>
+
+<p>To easily generate a&nbsp;documentation select a&nbsp;class or a&nbsp;function name and press ⌥⌘/ shortcut.</p>
+
+<p><img class="center" src="/post/2017-03/img/generate-documentation.png"></p>
+
+<h4 id="switch-between-the-header-and-implementation-file-up-down">Switch between the header and implementation file ⌃⌘ Up/Down</h4>
+
+<p>This one is useful only if you write in Objective-C. While writing in this language we need to switch back and forth between headers and implementation files. Frankly speaking, pressing ⌃⌘ Up/Down is one of my favourites shortcuts and it saved me a&nbsp;lot of time.</p>
+
+<h1 id="hidden-features">Hidden features</h1>
+
+<p>Xcode has many features which are difficult to find. Even very experienced developers don&rsquo;t know many of them. Here are two which I&nbsp;use the most during my daily work.</p>
+
+<h4 id="find-callers-and-callees">Find callers and callees</h4>
+
+<p>This is a&nbsp;very efficient way of finding usages of the function. I&nbsp;like it much more than using regular search in the whole project.
+I&nbsp;remember that one day this feature worked only for Objective-C. Apple apparently implemented it also for Swift(available from Xcode 7.3).</p>
+
+<p><img class="center" src="/post/2017-03/img/callers-callees.png"></p>
+
+<h4 id="show-recent-files">Show recent files</h4>
+
+<p>Do you work on a&nbsp;big codebase? Usually, we don&rsquo;t need to see the whole structure of a&nbsp;project. It&rsquo;s totally enough to keep track of recently seen files. Just use the hidden button at the bottom of Navigator.</p>
+
+<p><img class="center" src="/post/2017-03/img/recent-files.png"></p>
+
+<h1 id="debugging">Debugging</h1>
+
+<p>Xcode has some crucial debugging tools which make our life easier. Even small things can simplify bug hunting. Sometimes I&nbsp;wish I&nbsp;knew some of them when I&nbsp;started iOS development.</p>
+
+<h4 id="variable-breakpoints">Variable Breakpoints</h4>
+
+<p>Everyone programmer knows how to use breakpoint. But what I&nbsp;wanted to say is that Xcode provides great tools for breakpoint edition. Right click on a&nbsp;breakpoint and choose <em>Edit breakpoint</em> from the menu. Now you can set some actions like <em>Log Message</em>, <em>Debugger Command</em> or even <em>Sound</em>. It&rsquo;s worth mentioning that there&rsquo;s an option to continue after evaluating an action. It&rsquo;s useful for example in printing variable to the console. And it&rsquo;s much better way than modifying source code by adding <code>print</code> statements and recompiling the whole project.</p>
+
+<p><img class="center" src="/post/2017-03/img/breakpoint.png"></p>
+
+<h4 id="debugger-output">Debugger output</h4>
+
+<p>Sometimes we log a&nbsp;lot of messages during the app execution. It&rsquo;s possible to print only debugger output by setting the proper option at the bottom of the console.</p>
+
+<p><img class="center" src="/post/2017-03/img/debugger-output.png"></p>
+
+<h4 id="chisel">Chisel</h4>
+
+<p>There is a&nbsp;cool tool developed by Facebook: <a href="https://github.com/facebook/chisel">Chisel</a>. It&rsquo;s a&nbsp;collection of LLDB commands to assist in the debugging of iOS apps.
+For example, it allows to visualise a&nbsp;view in Preview.app, print view controller hierarchy, show/hide a&nbsp;given view/layer and much more. I&nbsp;highly recommend trying it out!</p>
+
+<h1 id="what-is-your-favourite-feature">What is your favourite feature?</h1>
+
+<p>I&nbsp;hope you learnt something new from this post. I&nbsp;showed what I&nbsp;use during my daily work. Even though Xcode has many features and shortcuts, I&nbsp;wanted to create a&nbsp;short list of things which make me more productive. I&nbsp;am sure it is not a&nbsp;complete list, so please let me know in comments what is your favourite feature!</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                <a href="https://twitter.com/KrrisPl">
+                        <img class="avatar" src="http://todoremove.com/images/avatar.png">
+                        <div>
+                            <span class="dark">TODO - remove this later</span>
+                            <span></span>
+                        </div>
+                    </a>
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2ftodoremove.com%2fpost%2f2017-03%2fxcode-tips-and-tricks%2f - Xcode%20-%20tips%20and%20tricks by @KrrisPl"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'todoremove';
+    var disqus_identifier = 'http:\/\/todoremove.com\/post\/2017-03\/xcode-tips-and-tricks\/';
+    var disqus_title = 'Xcode - tips and tricks';
+    var disqus_url = 'http:\/\/todoremove.com\/post\/2017-03\/xcode-tips-and-tricks\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        
+        <li>
+            <a href="http://todoremove.com/post/2017-03/xcode-tips-and-tricks/">Xcode - tips and tricks<aside class="dates">Mar 4</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://todoremove.com/post/2017-03/get-noticed-and-an-app-idea/">Get Noticed! and an app idea<aside class="dates">Mar 1</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://todoremove.com/post/hello-world/">Hello world<aside class="dates">Feb 12</aside></a>
+        </li>
+        
+   
+</ul>
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/krris">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/KrrisPl">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2017 TODO Remove
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://todoremove.com/js/main.js"></script>
+<script src="http://todoremove.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="http://todoremove.com/js/retina.js"></script>
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51763289-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+    </body>
+</html>

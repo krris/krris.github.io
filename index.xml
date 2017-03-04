@@ -7,8 +7,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2017 TODO Remove</copyright>
-    <lastBuildDate>Wed, 01 Mar 2017 08:10:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 18:02:30 +0100</lastBuildDate>
     <atom:link href="http://todoremove.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Xcode - tips and tricks</title>
+      <link>http://todoremove.com/post/2017-03/xcode-tips-and-tricks/</link>
+      <pubDate>Sat, 04 Mar 2017 18:02:30 +0100</pubDate>
+      
+      <guid>http://todoremove.com/post/2017-03/xcode-tips-and-tricks/</guid>
+      <description>
+
+&lt;p&gt;Xcode is the most famous IDE for native iOS development. As developers, we use it on daily basis. Some of us love it, others hate it. Nevertheless, it’s worth spending some time to brush up our Xcode skills and make us more productive. In this post, I&amp;nbsp;would like to share some tips and tricks, which helped me a&amp;nbsp;lot.&lt;/p&gt;
+
+&lt;h1 id=&#34;shortcuts&#34;&gt;Shortcuts&lt;/h1&gt;
+
+&lt;p&gt;Every IDE has a&amp;nbsp;lot of shortcuts. Here are some, which I&amp;nbsp;find most useful during my everyday work. Some of them might be obvious for you but I&amp;nbsp;would still recommend reading the whole article. Maybe you will learn something new which will boost your productivity.&lt;/p&gt;
+
+&lt;h4 id=&#34;open-quickly-o&#34;&gt;Open quickly ⌘⇧O&lt;/h4&gt;
+
+&lt;p&gt;If I&amp;nbsp;had to choose the most popular shortcut, it would be &lt;em&gt;Open quickly&lt;/em&gt;. You can search for anything in your project or even in all Apple&amp;rsquo;s public headers. It&amp;rsquo;s worth remembering that you don&amp;rsquo;t need to write consecutive letters. It&amp;rsquo;s enough to give them in a&amp;nbsp;correct order.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/open-quickly.png&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;reveal-in-project-navigator-j&#34;&gt;Reveal in Project Navigator ⌘⇧J&lt;/h4&gt;
+
+&lt;p&gt;Imagine you work on a&amp;nbsp;big project. You found a&amp;nbsp;file with &lt;em&gt;Open quickly&lt;/em&gt; and now you want to add a&amp;nbsp;new file in the same Group. But how to locate it in the &lt;em&gt;Project Navigator&lt;/em&gt;? Just press ⌘⇧J and it&amp;rsquo;s done!&lt;/p&gt;
+
+&lt;h4 id=&#34;searchable-menus-6&#34;&gt;Searchable Menus ⌃6&lt;/h4&gt;
+
+&lt;p&gt;Now you try to find a&amp;nbsp;particular method in a&amp;nbsp;&lt;em&gt;Massive&lt;/em&gt; View Controller. You can search for a&amp;nbsp;text with ⌘F but it&amp;rsquo;s easier and more practical to press ⌃6 to show a&amp;nbsp;view with listed properties and methods. The great thing is that you can immediately start typing and filter the results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/searchable-menu.png&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;documentation-generation&#34;&gt;Documentation Generation ⌥⌘/&lt;/h4&gt;
+
+&lt;p&gt;To easily generate a&amp;nbsp;documentation select a&amp;nbsp;class or a&amp;nbsp;function name and press ⌥⌘/ shortcut.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/generate-documentation.png&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;switch-between-the-header-and-implementation-file-up-down&#34;&gt;Switch between the header and implementation file ⌃⌘ Up/Down&lt;/h4&gt;
+
+&lt;p&gt;This one is useful only if you write in Objective-C. While writing in this language we need to switch back and forth between headers and implementation files. Frankly speaking, pressing ⌃⌘ Up/Down is one of my favourites shortcuts and it saved me a&amp;nbsp;lot of time.&lt;/p&gt;
+
+&lt;h1 id=&#34;hidden-features&#34;&gt;Hidden features&lt;/h1&gt;
+
+&lt;p&gt;Xcode has many features which are difficult to find. Even very experienced developers don&amp;rsquo;t know many of them. Here are two which I&amp;nbsp;use the most during my daily work.&lt;/p&gt;
+
+&lt;h4 id=&#34;find-callers-and-callees&#34;&gt;Find callers and callees&lt;/h4&gt;
+
+&lt;p&gt;This is a&amp;nbsp;very efficient way of finding usages of the function. I&amp;nbsp;like it much more than using regular search in the whole project.
+I&amp;nbsp;remember that one day this feature worked only for Objective-C. Apple apparently implemented it also for Swift(available from Xcode 7.3).&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/callers-callees.png&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;show-recent-files&#34;&gt;Show recent files&lt;/h4&gt;
+
+&lt;p&gt;Do you work on a&amp;nbsp;big codebase? Usually, we don&amp;rsquo;t need to see the whole structure of a&amp;nbsp;project. It&amp;rsquo;s totally enough to keep track of recently seen files. Just use the hidden button at the bottom of Navigator.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/recent-files.png&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;debugging&#34;&gt;Debugging&lt;/h1&gt;
+
+&lt;p&gt;Xcode has some crucial debugging tools which make our life easier. Even small things can simplify bug hunting. Sometimes I&amp;nbsp;wish I&amp;nbsp;knew some of them when I&amp;nbsp;started iOS development.&lt;/p&gt;
+
+&lt;h4 id=&#34;variable-breakpoints&#34;&gt;Variable Breakpoints&lt;/h4&gt;
+
+&lt;p&gt;Everyone programmer knows how to use breakpoint. But what I&amp;nbsp;wanted to say is that Xcode provides great tools for breakpoint edition. Right click on a&amp;nbsp;breakpoint and choose &lt;em&gt;Edit breakpoint&lt;/em&gt; from the menu. Now you can set some actions like &lt;em&gt;Log Message&lt;/em&gt;, &lt;em&gt;Debugger Command&lt;/em&gt; or even &lt;em&gt;Sound&lt;/em&gt;. It&amp;rsquo;s worth mentioning that there&amp;rsquo;s an option to continue after evaluating an action. It&amp;rsquo;s useful for example in printing variable to the console. And it&amp;rsquo;s much better way than modifying source code by adding &lt;code&gt;print&lt;/code&gt; statements and recompiling the whole project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/breakpoint.png&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;debugger-output&#34;&gt;Debugger output&lt;/h4&gt;
+
+&lt;p&gt;Sometimes we log a&amp;nbsp;lot of messages during the app execution. It&amp;rsquo;s possible to print only debugger output by setting the proper option at the bottom of the console.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/debugger-output.png&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;chisel&#34;&gt;Chisel&lt;/h4&gt;
+
+&lt;p&gt;There is a&amp;nbsp;cool tool developed by Facebook: &lt;a href=&#34;https://github.com/facebook/chisel&#34;&gt;Chisel&lt;/a&gt;. It&amp;rsquo;s a&amp;nbsp;collection of LLDB commands to assist in the debugging of iOS apps.
+For example, it allows to visualise a&amp;nbsp;view in Preview.app, print view controller hierarchy, show/hide a&amp;nbsp;given view/layer and much more. I&amp;nbsp;highly recommend trying it out!&lt;/p&gt;
+
+&lt;h1 id=&#34;what-is-your-favourite-feature&#34;&gt;What is your favourite feature?&lt;/h1&gt;
+
+&lt;p&gt;I&amp;nbsp;hope you learnt something new from this post. I&amp;nbsp;showed what I&amp;nbsp;use during my daily work. Even though Xcode has many features and shortcuts, I&amp;nbsp;wanted to create a&amp;nbsp;short list of things which make me more productive. I&amp;nbsp;am sure it is not a&amp;nbsp;complete list, so please let me know in comments what is your favourite feature!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Get Noticed! and an app idea</title>
