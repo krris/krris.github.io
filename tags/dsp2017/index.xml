@@ -56,7 +56,7 @@
 &lt;h4 id=&#34;find-callers-and-callees&#34;&gt;Find callers and callees&lt;/h4&gt;
 
 &lt;p&gt;This is a&amp;nbsp;very efficient way of finding usages of the function. I&amp;nbsp;like it much more than using regular search in the whole project.
-I&amp;nbsp;remember that one day this feature worked only for Objective-C. Apple apparently implemented it also for Swift(available from Xcode 7.3).&lt;/p&gt;
+I&amp;nbsp;remember that one day this feature worked only for Objective-C. Apple apparently implemented it also for Swift(available from Xcode 7.3). To find callers or callees click on a&amp;nbsp;little box just above the line numbers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;center&#34; src=&#34;http://todoremove.com/post/2017-03/img/callers-callees.png&#34;&gt;&lt;/p&gt;
 
